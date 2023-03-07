@@ -33,3 +33,8 @@ To get started with the project, clone the repository and install the dependenci
 ### Usage
 To use the menu application, click on a category to filter the items by that category. 
 Click on the "All" category to show all items.
+
+
+# [LIVE DEMO](https://menu-iota.vercel.app/)
+
+
