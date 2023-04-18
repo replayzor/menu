@@ -1,13 +1,11 @@
 import MenuItem from "./MenuItem";
 
 function Menu({ menuItems }) {
-	return (
-		<div className="section-center">
-			{menuItems.map((item) => {
-				return <MenuItem key={item.id} {...item} />;
-			})}
-		</div>
-	);
+	const renderedMenu = menuItems.map((item) => {
+		return <MenuItem key={item.id} {...item} />;
+	});
+
+	return <div className="section-center">{renderedMenu}</div>;
 }
 
 export default Menu;
